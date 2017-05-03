@@ -1,0 +1,22 @@
+<section class="col-sm-12 col-md-4">
+<div class="panel panel-info mrgn-bttm-md">
+<div class="panel-heading panel-heading-data">
+<h2 class="panel-title">Find latest data from the 2016 Census</h2>
+</div>
+
+<div class="panel-body">
+<div class="wb-frmvld" id="searchform">
+<form action="http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/search-recherche/action.cfm" method="get" name="testForm" target="_blank">
+<div class="form-group"><label for="GEONAME"><span class="field-name">Place name</span>:</label> <input class="form-control input-sm" data-rule-minlength="3" id="GEONAME" name="GEONAME" required="" width="80" /></div>
+
+<fieldset><legend class="wb-inv">Search type</legend>
+
+<div class="radio"><label for="searchtype1"><input checked="checked" id="searchtype1" name="searchtype" type="radio" value="profile" /> <span class="small">Search 2016 Census Profile</span> </label></div>
+
+<div class="radio"><label for="searchtype2"><input id="searchtype2" name="searchtype" type="radio" value="geosearch" /> <span class="small">Search all 2016 Census data, analysis and maps</span> </label></div>
+</fieldset>
+<input class="form-control" id="GEOCODE" name="GEOCODE" type="hidden" /> <input name="LANG" type="hidden" value="ENG" /> <input class="mrgn-tp-sm btn btn-default btn-sm" type="submit" value="Search" />&nbsp;</form>
+</div>
+</div>
+</div>
+</section>
