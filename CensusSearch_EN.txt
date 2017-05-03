@@ -1,4 +1,3 @@
-<section class="col-sm-12 col-md-4">
 <div class="panel panel-info mrgn-bttm-md">
 <div class="panel-heading panel-heading-data">
 <h2 class="panel-title">Find latest data from the 2016 Census</h2>
@@ -19,4 +18,3 @@
 </div>
 </div>
 </div>
-</section>
